@@ -8,20 +8,20 @@ package com.github.croesch.purchimana.model.types;
  */
 
 public class Euros {
+  public Euros(final int i) {
+    // TODO Auto-generated constructor stub
+  }
+
   public static void main(final String args[]) {
-    int Euros;
-    
-    public Euros {
-      Euros=8;
-      
-    }
+    final int Euros;
+
   }
 
   // TODO Auto-generated constructor stub
 
   public int getFullEuros() {
     // TODO Auto-generated method stub
-    return 8;
+    return 2;
   }
 
   public int getEuroCents() {
