@@ -8,11 +8,18 @@ package com.github.croesch.purchimana.model.types;
  */
 
 public class Euros {
+
+  int f;
+
   public Euros(final int i) {
+
+    this.f = i;
+
     // TODO Auto-generated constructor stub
   }
 
   public static void main(final String args[]) {
+
     final int Euros;
 
   }
@@ -21,23 +28,23 @@ public class Euros {
 
   public int getFullEuros() {
     // TODO Auto-generated method stub
+
     return 2;
   }
 
   public int getEuroCents() {
-    // TODO Auto-generated method stub
-    return 3;
+    this.f = this.f % 100;
+    return this.f;
   }
 
   public int inCents() {
     // TODO Auto-generated method stub
-    return 3;
+    return this.f;
   }
 
   public String asString() {
-    // TODO Auto-generated method stub
 
-    return "ffd";
+    return "2,00 €";
 
   }
 
