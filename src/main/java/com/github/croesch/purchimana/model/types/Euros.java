@@ -28,8 +28,8 @@ public class Euros {
 
   public int getFullEuros() {
     // TODO Auto-generated method stub
-
-    return 2;
+    this.f = this.f / 100;
+    return this.f;
   }
 
   public int getEuroCents() {
@@ -43,9 +43,14 @@ public class Euros {
   }
 
   public String asString() {
+    final String f = "f/100" + "," + "f%100" + '"' + "€";
 
-    return "2,00 €";
-
+    return "";
   }
 
+  public int Equals(){
+    if(int this.f != null ){
+      
+  }
+  }
 }
